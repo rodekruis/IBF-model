@@ -53,7 +53,7 @@ ui <- dashboardPage(
                      label = 'Select date range:',
                      start = min(df_impact_raw[[1]]$date, na.rm=T), end = max(df_impact_raw[[1]]$date, na.rm=T)),
       
-      radioButtons("country", "Country:", c("Ethiopia" = 1, "Kenya" = 2)),
+      radioButtons("country", "Country:", c("Zimbabwe" = 1)),
       selectInput("Level", "Select aggregation  Level(for now only Admin ):", c("Provinces"=1, "LHZ"=10),selected=1),#"LEVEL 3"),
       sliderInput("spi_index", "Choose SPI index(months): ",max = 12, step=1,min = 1,round=TRUE,value=1),
       sliderInput("spi_threshold", "Select a Threshold for The SPI: ",
