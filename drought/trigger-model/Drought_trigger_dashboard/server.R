@@ -1,6 +1,6 @@
 server <- function(input, output) {
   
-  selected_pcode <- reactiveVal("ET0505")
+  selected_pcode <- reactiveVal("ZW1104")
   #selected_pcode <- reactiveVal("LSA")
   #selected_indicator <- reactiveVal("spi3")
   #selected_indicator2 <- reactiveVal("spi6")
@@ -113,15 +113,15 @@ server <- function(input, output) {
   })
 
   output$drought_indicators_plot1 <- renderPlotly({
-    req(input$spi_threshold)
-    req(input$spi_index)
-    
-    p <- plot_matrix_spi(
-      input$spi_index,
-      input$spi_threshold,
-      RAIN_PCODE()
-    )
-    p
+    # req(input$spi_threshold)
+    # req(input$spi_index)
+    # 
+    # p <- plot_matrix_spi(
+    #   input$spi_index,
+    #   input$spi_threshold,
+    #   RAIN_PCODE()
+    # )
+    # p
   })
   
   output$ipc_plot <- renderPlotly({

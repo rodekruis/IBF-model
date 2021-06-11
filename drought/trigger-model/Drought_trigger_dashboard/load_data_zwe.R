@@ -14,7 +14,7 @@ zwe_lhz <-sf::read_sf("./shapefiles/zwe/ZW_LHZ_2011_fixed.shp") %>%
 
 # create a data frame with admin boundaries 
 
-Admin_all<-rbind(zwe,zwe_lhz)
+Admin_all <- rbind(zwe,zwe_lhz)
 admin <- list(zwe)
 
 
@@ -22,8 +22,8 @@ admin <- list(zwe)
 Admin_all1 <- Admin_all
 st_geometry(Admin_all1) <- NULL 
 
-vci_df <- read.csv("./data/zwe_vci.csv") %>%
-  dplyr::mutate(date = ymd(sprintf("%s0101", Year))) %>%
+vci_df <- read.csv("./data/zwe_vci.csv") %>% 
+  dplyr::mutate(date = ymd(sprintf("%d%02d01", Year, Month))) %>% 
   dplyr::mutate(ADM0_EN = "zwe") %>%
   dplyr::mutate(vci = VCI_0) %>% 
   dplyr::select(ADM2_PCODE, date, vci) %>%
@@ -128,7 +128,7 @@ summarize_events <- function(df) {
 
 admin[[1]] <- admin[[1]] %>%
   left_join(summarize_events(df_impact_raw[[1]]) %>%
-              dplyr::select(pcode, n_events),   by = c("ADM2_PCODE" = "pcode")) %>%   dplyr::filter(!is.na(n_events))
+              dplyr::select(pcode, n_events),   by = c("ADM1_PCODE" = "pcode")) %>%   dplyr::filter(!is.na(n_events))
 
 #change wih livelyhodzone
 admin[[10]] <- admin[[1]]
