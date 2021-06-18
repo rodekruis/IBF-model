@@ -35,6 +35,7 @@ calc_return <- function(dis5) {
   RT <- return.level(fevd(discharge, data.frame(discharge), units = "cms"), return.period = c(2, 5, 10, 20, 25), do.ci = FALSE)
   return(as.vector(RT))
 }
+
 stations <- read.csv("c:/Users/BOttow/Rode Kruis/510 - Data preparedness and IBF - [CTRY] Uganda/IBF Dashboard data/rp_glofas_station_uga_3_1.csv")
 dir <- "c:/Users/BOttow/Rode Kruis/510 - Data preparedness and IBF - [CTRY] Uganda/GIS Data/GloFAS/3.1"
 files <- list.files(dir, pattern = ".nc")
