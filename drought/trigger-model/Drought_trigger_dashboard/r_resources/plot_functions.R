@@ -38,9 +38,18 @@ plot_drought_indicators <- function(df,impact_df,df_SST,RAIN_PCODE, Drought_indi
 plot_matrix_spi <- function(spi_index,spi_threshold,RAIN_PCODE){
   
   y <- zoo::zoo(RAIN_PCODE$rain, RAIN_PCODE$date)
+  out <- tryCatch(
+    {
+      m <- hydroTSM::daily2monthly(y, FUN=sum, na.rm=TRUE)
+      monthly_rain=data.frame(m)
+    },
+    error=function(cond) {
+      message(cond)
+      # Choose a return value in case of error
+      return(y %>% dplyr::mutate(m = rain))
+    }
+  )
   
-  m <- hydroTSM::daily2monthly(y, FUN=sum, na.rm=TRUE)
-  monthly_rain=data.frame(m)
   
   spi <- SPEI::spi(monthly_rain[,'m'], spi_index)
   
@@ -98,14 +107,23 @@ plot_matrix_vci <- function(vci_threshold,vci_PCODE){
   
   
   y <- zoo::zoo(vci_PCODE$vci, vci_PCODE$date)
+  out <- tryCatch(
+    {
+      vci_m <- hydroTSM::daily2monthly(y, FUN=mean, na.rm=TRUE)
+      monthly_vci = data.frame(vci_m)
+      a <- format(time(vci_m), "%m")
+      b <- format(time(vci_m), "%Y")
+      monthly_vci <- monthly_vci %>% dplyr::mutate(month=a, year=b)
+    },
+    error=function(cond) {
+      message(cond)
+      # Choose a return value in case of error
+      return(y %>% dplyr::mutate(vci_m = vci))
+    }
+  )
   
-  vci_m <- hydroTSM::daily2monthly(y, FUN=mean, na.rm=TRUE)
-  monthly_vci=data.frame(vci_m)
-  a<-format(time(vci_m), "%m")
-  b<-format(time(vci_m), "%Y")
-  monthly_vci<-monthly_vci %>% dplyr::mutate(month=a,year=b)
   
-  monthly_vci$vci_m[monthly_vci$vci_m>vci_threshold]<-NA
+  monthly_vci$vci_m[monthly_vci$vci_m>vci_threshold] <- NA
   
   
   p <- ggplot(monthly_vci, aes(x = year, y = month)) + 

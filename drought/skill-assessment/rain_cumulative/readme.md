@@ -1,4 +1,4 @@
-# Script for TAMSAT soil moisture data preparation 
+# Script to align historical daily precipitation from CHIRPS
 
 ## `rain_cumulative.R`
 
