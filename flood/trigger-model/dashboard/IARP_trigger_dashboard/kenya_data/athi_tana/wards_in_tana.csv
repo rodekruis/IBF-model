@@ -1,0 +1,98 @@
+OBJECTID,countis,subcnts,wards,Shape_Leng,Shape_Area
+"1",Tana River,Galole,Kinakomba,1.53661614907,0.09953549925
+"12",Tana River,Galole,Mikinduni,1.03018276892,0.02514631317
+"13",Tana River,Galole,Chewani,0.96262376353,0.03995437901
+"14",Lamu,Lamu East,Kiunga,1.18201187608,0.03029380845
+"15",Lamu,Lamu East,Basuba,3.28396577196,0.12723732231
+"16",Lamu,Lamu West,Hindi,2.63236512298,0.08645431429
+"17",Tana River,Bura,Hirimani,2.78048310727,0.24990984230
+"18",Tana River,Bura,Bangale,3.54346766936,0.42839478756
+"19",Tana River,Bura,Sala,1.29685984913,0.05435971165
+"20",Tana River,Galole,Wayu,3.64304046800,0.61863421950
+"21",Lamu,Lamu West,Hongwe,0.47436618725,0.01044604506
+"22",Garissa,Garissa,Township,0.63455098726,0.01381618344
+"23",Garissa,Garissa,Waberi,1.12960583727,0.03859090511
+"24",Garissa,Balambala,Balambala,0.67716805011,0.01928250116
+"25",Garissa,Balambala,Danyere,1.31283533931,0.06999651428
+"26",Garissa,Balambala,Jarajara,0.78164458213,0.01920968478
+"27",Garissa,Balambala,Saka,1.27778715854,0.06871283043
+"28",Garissa,Garissa,Sankuri,1.47577215949,0.08977506281
+"29",Garissa,Lagdera,Goreale,0.30533879882,0.00400289858
+"30",Garissa,Fafi,Jarajila,2.34728011889,0.22852119469
+"31",Garissa,Fafi,Fafi,3.41202670479,0.43519022057
+"32",Garissa,Fafi,Nanighi,1.55363992379,0.12374646408
+"33",Garissa,Hulugho,Hulugho,3.09100054043,0.29975370647
+"34",Garissa,Hulugho,Sangailu,2.41612124095,0.18022202573
+"35",Kitui,Kitui Rural,Mbitini,0.53592071363,0.01066293200
+"36",Kitui,Kitui East,Zombe/Mwitika,1.05375083342,0.04720922596
+"37",Tana River,Bura,Chewele,2.20472699200,0.18702899924
+"38",Tana River,Bura,Madogo,2.69688281051,0.15287464949
+"84",Garissa,Ijara,Masalani,1.66227647328,0.12601844110
+"85",Kitui,Mwingi North,Mumoni,1.18455308739,0.05754462290
+"86",Kitui,Mwingi North,Tseikuru,1.47968645464,0.10799325959
+"87",Kitui,Mwingi North,Tharaka,0.85673245427,0.02945649744
+"88",Kitui,Mwingi West,Kyome/Thaana,1.52416531460,0.02503594517
+"89",Kitui,Mwingi West,Nguutani,1.07234095064,0.01704652349
+"90",Kitui,Mwingi West,Migwani,0.78631417536,0.01361431443
+"91",Kitui,Mwingi West,Kiomo/Kyethani,1.19020056893,0.03234205047
+"92",Kitui,Mwingi Central,Central,0.43515008932,0.00554787709
+"93",Kitui,Mwingi Central,Kivou,0.85597638999,0.01974916396
+"94",Kitui,Mwingi Central,Nguni,2.03641833152,0.14299661312
+"95",Kitui,Mwingi Central,Nuu,2.13623662045,0.10772094214
+"96",Kitui,Mwingi Central,Mui,0.90558038362,0.03003572954
+"97",Kitui,Mwingi Central,Waita,0.96515398126,0.03067142850
+"98",Kitui,Kitui West,Mutongoni,0.80886783201,0.01282959855
+"99",Kitui,Kitui West,Kauwi,0.74330764636,0.01994161872
+"100",Kitui,Kitui West,Matinyani,0.59757319304,0.00586100915
+"101",Kitui,Kitui West,Kwamutonga/Kithumula,0.89976780509,0.01560973819
+"102",Nyeri,Mathira East,Karatina Town,0.29356866273,0.00254492408
+"103",Nyeri,Nyeri South,Mahiga,1.10157736906,0.02873785045
+"104",Nyeri,Nyeri South,Iria-Ini,0.34254786416,0.00371849923
+"105",Nyeri,Nyeri South,Chinga,0.46082670444,0.00431775282
+"106",Kitui,Kitui Rural,Kwavonza/Yatta,1.83774308846,0.05432843680
+"107",Kitui,Kitui Rural,Kanyangi,1.02916685727,0.02306248140
+"108",Kitui,Kitui Central,Miambani,0.78889215251,0.01748830102
+"109",Kitui,Kitui Central,Township,0.25776231995,0.00145516842
+"110",Kitui,Kitui Central,Kyangwithya West,0.74065479214,0.01409811884
+"111",Kitui,Kitui East,Nzambani,0.43152294656,0.00519952438
+"112",Kitui,Kitui East,Voo/Kyamatu,1.74698622832,0.09066496583
+"113",Kitui,Kitui East,Endau/Malalani,2.15202090221,0.20558438180
+"114",Kitui,Kitui East,Mutitu/Kaliku,1.03859441107,0.04851355788
+"115",Kitui,Kitui South,Ikanga/Kyatune,1.02812387610,0.03997770546
+"116",Kitui,Kitui South,Ikutha,1.13204138101,0.03529146035
+"117",Kitui,Kitui South,Athi,5.14820325886,0.49952286391
+"150",Laikipia,Laikipia East,Tigithi,0.37361601669,0.00596992926
+"151",Kilifi,Magarini,Gongoni,0.04803782003,0.00008779606
+"152",Kilifi,Magarini,Adu,3.12159581437,0.15392522246
+"153",Garissa,Garissa,Iftin,0.07556348652,0.00018857954
+"154",Garissa,Dadaab,Dertu,1.50135137958,0.08010326358
+"155",Garissa,Dadaab,Damajale,1.36836983013,0.08528930489
+"156",Garissa,Dadaab,Liboi,0.06782908590,0.00017864107
+"157",Garissa,Dadaab,Abakaile,0.58427307567,0.00924163288
+"193",Garissa,Fafi,Bura,2.76066540742,0.30266191721
+"204",Garissa,Fafi,Dekaharia,1.62748764515,0.10939787724
+"205",Tharaka-Nithi,Tharaka North,Gatunga,1.26167414731,0.05279338010
+"206",Tharaka-Nithi,Tharaka North,Mukothima,0.89315519193,0.01580723317
+"207",Tharaka-Nithi,Tharaka South,Nkondi,0.47413468991,0.00843895182
+"208",Tharaka-Nithi,Tharaka South,Chiakagira,1.04697224113,0.02466376272
+"209",Tharaka-Nithi,Tharaka South,Marimanti,0.91583862742,0.02424744531
+"220",Kitui,Mwingi North,Ngomeni,1.88588522002,0.13166237933
+"221",Kitui,Mwingi North,Kyuso,1.50444623252,0.06530921210
+"222",Garissa,Ijara,Ijara,1.82624767111,0.18855765607
+"223",Tana River,Garsen,Kipini East,1.22798802455,0.02426492963
+"224",Tana River,Garsen,Garsen South,3.43422490413,0.27724153442
+"225",Tana River,Garsen,Kipini West,1.34903992065,0.04514139710
+"226",Tana River,Garsen,Garsen Central,0.78244359380,0.01912503125
+"227",Tana River,Garsen,Garsen West,4.31723734439,0.74162783132
+"230",Lamu,Lamu West,Mkunumbi,2.07439287276,0.11361691411
+"231",Lamu,Lamu West,Bahari,0.89501578827,0.01118951085
+"232",Lamu,Lamu West,Witu,1.40647625860,0.07931777405
+"233",Tana River,Garsen,Garsen North,1.59545166269,0.12894447586
+"234",Garissa,Garissa,Galbet,0.63543251186,0.00326033497
+"252",Kitui,Kitui Rural,Kisasi,0.92662045501,0.02062528900
+"253",Kitui,Kitui Central,Mulango,0.73570937324,0.01265753753
+"254",Kitui,Kitui Central,Kyangwithya East,0.49765044417,0.00853464198
+"255",Kitui,Kitui East,Chuluni,0.80828576708,0.01912410740
+"256",Kitui,Kitui South,Mutomo,0.91056168885,0.02646716742
+"257",Kitui,Kitui South,Mutha,2.43734244882,0.28282957747
+"258",Kitui,Kitui South,Kanziko,0.85693518355,0.03688358477

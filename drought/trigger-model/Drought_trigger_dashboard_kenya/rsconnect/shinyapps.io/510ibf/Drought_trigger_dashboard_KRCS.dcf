@@ -1,0 +1,13 @@
+name: Drought_trigger_dashboard_KRCS
+title: Drought_trigger_dashboard_KRCS
+username:
+account: 510ibf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4456056
+bundleId: 4887578
+url: https://510ibf.shinyapps.io/Drought_trigger_dashboard_KRCS/
+when: 1628087878.10311
+lastSyncTime: 1628087878.10311
+asMultiple: FALSE
+asStatic: FALSE

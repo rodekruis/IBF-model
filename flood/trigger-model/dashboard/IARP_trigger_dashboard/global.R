@@ -102,8 +102,7 @@ for (n in range(1,length(admin))){
 
 glofas_date_window=14
 
-glofas_raw <- read_csv("data/GLOFAS_fill_allstation_.csv") %>% 
-  rename(date = time) %>% 
+glofas_raw <- read_csv("data/GLOFAS_fill_allstation_.csv") %>%
   group_by(station) %>%
   mutate(q50=quantile(dis,probs=.5, names = FALSE),
          q95=quantile(dis,probs=.95, names = FALSE),
@@ -135,7 +134,7 @@ glofas_mapping[[3]] <- read.csv("data/uga_affected_area_stations.csv", stringsAs
 
 
 rainfall_raw <- list()
-rainfall_raw[[1]] <- read_csv('data/Impact_Hazard_catalog.csv') %>% clean_names()
+rainfall_raw[[1]] <- read.delim('data/Impact_Hazard_catalog.csv',sep=';') %>% clean_names()
 #rainfall_raw[[2]] <- read_csv('data/WRF_kenya_2000-2010.csv') %>% clean_names()
 
 #use the data calculated for counties to sub_counties
@@ -287,7 +286,7 @@ glofas_raw <- glofas_raw %>%
     date <= max(all_days$date))
 
 glofas_raw <- expand.grid(all_days$date, unique(glofas_raw$station)) %>%
-  rename(date = Var1, station = Var2) %>%
+  dplyr::rename(date = Var1, station = Var2) %>%
   left_join(glofas_raw %>% dplyr::select(date, dis, dis_3, dis_7,q50,q95, station), by = c("date", "station")) %>% 
   arrange(station, date) %>%
   group_by(station) %>%
@@ -295,10 +294,10 @@ glofas_raw <- expand.grid(all_days$date, unique(glofas_raw$station)) %>%
   fill(dis, dis_3, dis_7, .direction="up") %>%
   ungroup()
 
-rainfall_raw[[1]] <- rainfall_raw[[1]] %>%
+rainfall_raw[[1]] <- rainfall_raw[[1]]%>%dplyr::select(-pcode) %>%
   left_join(df_impact_raw[[1]] %>% dplyr::select(pcode, zone), by = "zone") %>%
   group_by(pcode, date) %>%
-  summarise(rainfall = mean(rainfall, na.rm=T))
+  dplyr::summarise(rainfall = mean(rainfall, na.rm=T))
 
 rainfall_raw[[3]] <- rainfall_raw[[3]] %>% mutate(date = dmy(time)) %>% dplyr::select(-time) %>%
   gather(name, rainfall, -date) %>%

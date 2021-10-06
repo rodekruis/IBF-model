@@ -19,7 +19,7 @@ ui_tab_main <- tabItem(
   ),
   fluidRow(
     column(
-      width = 2,
+      width = 3,
       # sliderInput("swi_threshold", "Select SWI Threshold: ", min=10, max = 100, value=75),
       uiOutput("rainfall_slider"),
       uiOutput("glofas_dropdown"),
@@ -28,7 +28,7 @@ ui_tab_main <- tabItem(
       uiOutput("result_html")
     ),
     column(
-      width = 10,
+      width = 9,
       plotlyOutput("rainfall_glofas_plot")
     )
   )

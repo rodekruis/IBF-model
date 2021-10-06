@@ -18,14 +18,14 @@ server <- function(input, output) {
     req(input$glofas_station_selected)
     cat(input$glofas_station_selected)
     glofas_raw %>%
-      filter(station == input$glofas_station_selected) %>%
-      filter(date >= isolate(input$dateRange[1]), date <= isolate(input$dateRange[2]))
+      dplyr::filter(station == input$glofas_station_selected) %>%
+      dplyr::filter(date >= isolate(input$dateRange[1]), date <= isolate(input$dateRange[2]))
   })
 
 
   rainfall <- reactive({
     rainfall_raw[[country()]] %>%
-      filter(
+      dplyr::filter(
         pcode == selected_pcode(),
         date >= isolate(input$dateRange[1]),
         date <= isolate(input$dateRange[2])
@@ -36,7 +36,7 @@ server <- function(input, output) {
     req(input$glofas_station_selected)
 
     rp_glofas_station %>%
-      filter(station == input$glofas_station_selected)
+      dplyr::filter(station == input$glofas_station_selected)
   })
 
   output$selected_district <- renderText({
@@ -45,13 +45,13 @@ server <- function(input, output) {
 
   impact_df <- reactive({
     df_impact_raw[[country()]] %>%
-      filter(pcode == selected_pcode(),
+      dplyr::filter(pcode == selected_pcode(),
              date >= isolate(input$dateRange[1]),
              date <= isolate(input$dateRange[2]))
   })
   extra_impact_df <- reactive({
     df_extra_impact[[country()]] %>%
-      filter(pcode == selected_pcode(),
+      dplyr::filter(pcode == selected_pcode(),
              date >= isolate(input$dateRange[1]),
              date <= isolate(input$dateRange[2]))
   })
@@ -130,7 +130,8 @@ server <- function(input, output) {
 
   output$glofas_slider <- renderUI({
     if(isolate(has_glofas())) {
-      sliderInput("glofas_threshold", "Select a Threshold for The GLOFAS Station in(cms): ", min=0,
+      sliderInput("glofas_threshold",
+	  "Select a Threshold in(cms): ", min=0,
                   max = round(max(isolate(glofas())$dis, na.rm=T)),
                   value=round(quantile(glofas()$dis, 0.95, na.rm=T)))
     } else {
@@ -141,7 +142,7 @@ server <- function(input, output) {
   output$glofas_var_selector <- renderUI({
     if(isolate(has_glofas())) {
       selectInput("glofas_variable",
-                  "Select lead time(dis=0,dis_3=3 days or dis_7=7 days) discharge variable",
+                  "Select lead time(dis=0,dis_3=3 or dis_7=7 days)",
                   choices = c("dis", "dis_3", "dis_7"),
                   selected = "dis")
     } else {
@@ -150,7 +151,8 @@ server <- function(input, output) {
   })
 
   output$rainfall_slider <- renderUI({
-    sliderInput("rainfall_threshold", "Select Rainfall Threshold (in mm): ", min=0,
+    sliderInput("rainfall_threshold",
+	"Select Rainfall Threshold (in mm): ", min=0,
                 max = round(max(isolate(rainfall())$rainfall, na.rm=T)),
                 value=round(quantile(isolate(rainfall())$rainfall, 0.99, na.rm=T)))
   })

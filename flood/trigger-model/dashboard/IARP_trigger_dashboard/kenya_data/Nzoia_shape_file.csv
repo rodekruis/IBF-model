@@ -1,0 +1,200 @@
+county,cnsttnc,wards,pcode
+Bungoma,Kabuchai,Kabuchai/Chwele,KE0392181085
+Bungoma,Kabuchai,West Nalondo,KE0392181086
+Bungoma,Kabuchai,Bwake/Luuya,KE0392181087
+Bungoma,Kabuchai,Mukuyuni,KE0392181088
+Bungoma,Bumula,Kabula,KE0392191092
+Bungoma,Kanduyi,Bukembe West,KE0392201096
+Bungoma,Kanduyi,Bukembe East,KE0392201097
+Bungoma,Kanduyi,Musikoma,KE0392201100
+Bungoma,Kanduyi,East Sang'alo,KE0392201101
+Bungoma,Kanduyi,West Sang'alo,KE0392201103
+Bungoma,Webuye East,Mihuu,KE0392211104
+Bungoma,Webuye East,Ndivisi,KE0392211105
+Bungoma,Webuye East,Maraka,KE0392211106
+Bungoma,Webuye West,Misikhu,KE0392221107
+Bungoma,Webuye West,Sitikho,KE0392221108
+Bungoma,Webuye West,Matulo,KE0392221109
+Bungoma,Webuye West,Bokoli,KE0392221110
+Bungoma,Kimilili,Kibingei,KE0392231111
+Bungoma,Kimilili,Kimilili,KE0392231112
+Bungoma,Kimilili,Maeni,KE0392231113
+Bungoma,Kimilili,Kamukuywa,KE0392231114
+Bungoma,Tongaren,Mbakalo,KE0392241115
+Bungoma,Tongaren,Naitiri/Kabuyefwe,KE0392241116
+Bungoma,Tongaren,Milima,KE0392241117
+Bungoma,Tongaren,Ndalu,KE0392241118
+Bungoma,Tongaren,Tongaren,KE0392241119
+Bungoma,Tongaren,Soysambu/Mitua,KE0392241120
+Busia,Matayos,Matayos South,KE0402281139
+Busia,Butula,Marachi West,KE0402291142
+Busia,Butula,Kingandole,KE0402291143
+Busia,Butula,Marachi Central,KE0402291144
+Busia,Butula,Marachi East,KE0402291145
+Busia,Butula,Marachi North,KE0402291146
+Busia,Butula,Elugulu,KE0402291147
+Busia,Funyula,Nangina,KE0402301149
+Busia,Funyula,Ageng'a Nanguba,KE0402301150
+Busia,Funyula,Bwiri,KE0402301151
+Busia,Budalangi,Bunyala Central,KE0402311152
+Busia,Budalangi,Bunyala North,KE0402311153
+Busia,Budalangi,Bunyala West,KE0402311154
+Busia,Budalangi,Bunyala South,KE0402311155
+Elgeyo-Marakwet,Marakwet East,Kapyego,KE0281470731
+Elgeyo-Marakwet,Marakwet West,Lelan,KE0281480735
+Elgeyo-Marakwet,Marakwet West,Sengwer,KE0281480736
+Elgeyo-Marakwet,Marakwet West,Cheragany/Chebororwa,KE0281480737
+Elgeyo-Marakwet,Marakwet West,Moiben/Kuserwo,KE0281480738
+Elgeyo-Marakwet,Marakwet West,Kapsowar,KE0281480739
+Elgeyo-Marakwet,Keiyo North,Kimariny,KE0281490741
+Elgeyo-Marakwet,Keiyo North,Emsoo,KE0281490742
+Elgeyo-Marakwet,Keiyo North,Tambach,KE0281490743
+Elgeyo-Marakwet,Keiyo North,Kapchemutwa,KE0281490744
+Elgeyo-Marakwet,Keiyo South,Kaptarakwa,KE0281500745
+Elgeyo-Marakwet,Keiyo South,Chepkorio,KE0281500746
+Elgeyo-Marakwet,Keiyo South,Soy North,KE0281500747
+Elgeyo-Marakwet,Keiyo South,Soy South,KE0281500748
+Elgeyo-Marakwet,Keiyo South,Kabiemit,KE0281500749
+Elgeyo-Marakwet,Keiyo South,Metkei,KE0281500750
+Kakamega,Lugari,Mautuma,KE0371990991
+Kakamega,Lugari,Lugari,KE0371990992
+Kakamega,Lugari,Lumakanda,KE0371990993
+Kakamega,Lugari,Chekalini,KE0371990994
+Kakamega,Lugari,Chevaywa,KE0371990995
+Kakamega,Lugari,Luandeti,KE0371990996
+Kakamega,Likuyani,Likuyani,KE0372000997
+Kakamega,Likuyani,Sango,KE0372000998
+Kakamega,Likuyani,Kongoni,KE0372000999
+Kakamega,Likuyani,Nzoia,KE0372001000
+Kakamega,Likuyani,Sinoko,KE0372001001
+Kakamega,Malava,West Kabras,KE0372011002
+Kakamega,Malava,Chemuche,KE0372011003
+Kakamega,Malava,East Kabras,KE0372011004
+Kakamega,Malava,Butali/Chegulo,KE0372011005
+Kakamega,Malava,Manda/Shivanga,KE0372011006
+Kakamega,Malava,Shirugu/Mugai,KE0372011007
+Kakamega,Malava,South Kabras,KE0372011008
+Kakamega,Lurambi,Butsotso East,KE0372021009
+Kakamega,Lurambi,South Butsotso,KE0372021010
+Kakamega,Lurambi,Central Butsotso,KE0372021011
+Kakamega,Lurambi,Shieywe,KE0372021012
+Kakamega,Lurambi,Mahiakalo,KE0372021013
+Kakamega,Lurambi,Shirere,KE0372021014
+Kakamega,Navakholo,Ingotse-Matiha,KE0372031015
+Kakamega,Navakholo,Shinoyi-Shikomari-Esumeiya,KE0372031016
+Kakamega,Navakholo,Bunyala West,KE0372031017
+Kakamega,Navakholo,Bunyala East,KE0372031018
+Kakamega,Navakholo,Bunyala Central,KE0372031019
+Kakamega,Mumias West,Mumias Central,KE0372041020
+Kakamega,Mumias West,Mumias North,KE0372041021
+Kakamega,Mumias West,Etenje,KE0372041022
+Kakamega,Mumias West,Musanda,KE0372041023
+Kakamega,Mumias East,Lusheya/Lubinu,KE0372051024
+Kakamega,Mumias East,Malaha/Isongo/Makunga,KE0372051025
+Kakamega,Mumias East,East Wanga,KE0372051026
+Kakamega,Matungu,Koyonzo,KE0372061027
+Kakamega,Matungu,Kholera,KE0372061028
+Kakamega,Matungu,Khalaba,KE0372061029
+Kakamega,Matungu,Mayoni,KE0372061030
+Kakamega,Butere,Marama West,KE0372071032
+Kakamega,Butere,Marama Central,KE0372071033
+Kakamega,Butere,Marenyo/Shianda,KE0372071034
+Kakamega,Butere,Marama North,KE0372071035
+Kakamega,Butere,Marama South,KE0372071036
+Kakamega,Khwisero,Kisa North,KE0372081037
+Kakamega,Khwisero,Kisa West,KE0372081039
+Kakamega,Khwisero,Kisa Central,KE0372081040
+Kakamega,Shinyalu,Isukha North,KE0372091041
+Kakamega,Shinyalu,Murhanda,KE0372091042
+Kakamega,Shinyalu,Isukha Central,KE0372091043
+Kakamega,Shinyalu,Isukha South,KE0372091044
+Kakamega,Shinyalu,Isukha East,KE0372091045
+Kakamega,Shinyalu,Isukha West,KE0372091046
+Kakamega,Ikolomani,Idakho North,KE0372101049
+Kakamega,Ikolomani,Idakho Central,KE0372101050
+Nandi,Chesumei,Lelmok/Ngechek,KE0291540767
+Nandi,Chesumei,Kaptel/Kamoiywo,KE0291540768
+Nandi,Emgwen,Kapkangani,KE0291550771
+Nandi,Mosop,Cheterwai,KE0291560774
+Nandi,Mosop,Kipkaren,KE0291560775
+Nandi,Mosop,Kurgung/Surungai,KE0291560776
+Nandi,Mosop,Kabiyet,KE0291560777
+Nandi,Mosop,Ndalat,KE0291560778
+Nandi,Mosop,Kabisanga,KE0291560779
+Nandi,Mosop,Sangalo/Kebulonik,KE0291560780
+Siaya,Ugenya,West Ugenya,KE0412321156
+Siaya,Ugenya,Ukwala,KE0412321157
+Siaya,Ugenya,North Ugenya,KE0412321158
+Siaya,Ugenya,East Ugenya,KE0412321159
+Siaya,Ugunja,Sidindi,KE0412331160
+Siaya,Ugunja,Sigomere,KE0412331161
+Siaya,Ugunja,Ugunja,KE0412331162
+Siaya,Alego Usonga,Usonga,KE0412341163
+Siaya,Alego Usonga,West Alego,KE0412341164
+Siaya,Alego Usonga,Central Alego,KE0412341165
+Siaya,Alego Usonga,Siaya Township,KE0412341166
+Siaya,Alego Usonga,North Alego,KE0412341167
+Siaya,Gem,North Gem,KE0412351169
+Siaya,Gem,West Gem,KE0412351170
+Siaya,Gem,Central Gem,KE0412351171
+Siaya,Gem,Yala Township,KE0412351172
+Trans Nzoia,Kwanza,Kapomboi,KE0261360676
+Trans Nzoia,Kwanza,Kwanza,KE0261360677
+Trans Nzoia,Kwanza,Keiyo,KE0261360678
+Trans Nzoia,Kwanza,Bidii,KE0261360679
+Trans Nzoia,Endebess,Chepchoina,KE0261370680
+Trans Nzoia,Endebes,Endebes,KE0261370681
+Trans Nzoia,Endebess,Matumbei,KE0261370682
+Trans Nzoia,Saboti,Kinyoro,KE0261380683
+Trans Nzoia,Saboti,Matisi,KE0261380684
+Trans Nzoia,Saboti,Tuwani,KE0261380685
+Trans Nzoia,Saboti,Saboti,KE0261380686
+Trans Nzoia,Saboti,Machewa,KE0261380687
+Trans Nzoia,Kiminini,Kiminini,KE0261390688
+Trans Nzoia,Kiminini,Waitaluk,KE0261390689
+Trans Nzoia,Kiminini,Sirende,KE0261390690
+Trans Nzoia,Kiminini,Hospital,KE0261390691
+Trans Nzoia,Kiminini,Sikhendu,KE0261390692
+Trans Nzoia,Kiminini,Nabiswa,KE0261390693
+Trans Nzoia,Cherangany,Sinyerere,KE0261400694
+Trans Nzoia,Cherangany,Makutano,KE0261400695
+Trans Nzoia,Cherangany,Kaplamai,KE0261400696
+Trans Nzoia,Cherangany,Motosiet,KE0261400697
+Trans Nzoia,Cherangany,Cherangany/Suwerwa,KE0261400698
+Trans Nzoia,Cherangany,Chepsiro/Kiptoror,KE0261400699
+Trans Nzoia,Cherangany,Sitatunga,KE0261400700
+Uasin Gishu,Soy,Moi's Bridge,KE0271410701
+Uasin Gishu,Soy,Kapkures,KE0271410702
+Uasin Gishu,Soy,Ziwa,KE0271410703
+Uasin Gishu,Soy,Segero/Barsombe,KE0271410704
+Uasin Gishu,Soy,Kipsomba,KE0271410705
+Uasin Gishu,Soy,Soy,KE0271410706
+Uasin Gishu,Soy,Kuinet/Kapsuswa,KE0271410707
+Uasin Gishu,Turbo,Ngenyilel,KE0271420708
+Uasin Gishu,Turbo,Tapsagoi,KE0271420709
+Uasin Gishu,Turbo,Kamagut,KE0271420710
+Uasin Gishu,Turbo,Kiplombe,KE0271420711
+Uasin Gishu,Turbo,Kapsaos,KE0271420712
+Uasin Gishu,Turbo,Huruma,KE0271420713
+Uasin Gishu,Moiben,Tembelio,KE0271430714
+Uasin Gishu,Moiben,Sergoit,KE0271430715
+Uasin Gishu,Moiben,Karuna/Meibeki,KE0271430716
+Uasin Gishu,Moiben,Moiben,KE0271430717
+Uasin Gishu,Moiben,Kimumu,KE0271430718
+Uasin Gishu,Ainabkoi,Kapsoya,KE0271440719
+Uasin Gishu,Ainabkoi,Kaptagat,KE0271440720
+Uasin Gishu,Ainabkoi,Ainabkoi/Olare,KE0271440721
+Uasin Gishu,Kapseret,Simat/Kapseret,KE0271450722
+Uasin Gishu,Kapseret,Kipkenyo,KE0271450723
+Uasin Gishu,Kapseret,Ngeria,KE0271450724
+Uasin Gishu,Kapseret,Megun,KE0271450725
+Uasin Gishu,Kapseret,Langas,KE0271450726
+Uasin Gishu,Kesses,Racecourse,KE0271460727
+Uasin Gishu,Kesses,Cheptiret/Kipchamo,KE0271460728
+Uasin Gishu,Kesses,Tulwet/Chiyat,KE0271460729
+Uasin Gishu,Kesses,Tarakwa,KE0271460730
+West Pokot,Kapenguria,Kapenguria,KE0241290642
+West Pokot,Kapenguria,Mnangei,KE0241290643
+West Pokot,Kapenguria,Siyoi,KE0241290644
+West Pokot,Pokot South,Chepareria,KE0241320657
+West Pokot,Pokot South,Lelan,KE0241320659

@@ -9,9 +9,7 @@ download.features.geonode <- function(country, elm) {
 summarize_floods <- function(df) {
   df %>%
     group_by(admin, pcode) %>%
-    summarise(
-      n_floods = n()
-    ) %>%
-    arrange(-n_floods) %>%
-    ungroup()
+    dplyr::summarise(n_floods = n())%>%
+	arrange(-n_floods)%>%
+	ungroup()
 }

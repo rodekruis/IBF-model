@@ -1,0 +1,12 @@
+name: Drought_trigger_dashboard_Ethiopia
+title: Drought_trigger_dashboard_Ethiopia
+username:
+account: 510ibf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4462870
+bundleId: 4918836
+url: https://510ibf.shinyapps.io/Drought_trigger_dashboard_Ethiopia/
+when: 1628843962.51017
+asMultiple: FALSE
+asStatic: FALSE

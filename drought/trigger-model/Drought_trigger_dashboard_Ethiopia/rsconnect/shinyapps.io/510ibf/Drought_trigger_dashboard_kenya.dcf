@@ -1,0 +1,12 @@
+name: Drought_trigger_dashboard_kenya
+title: Drought_trigger_dashboard_kenya
+username:
+account: 510ibf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4456373
+bundleId: 4894322
+url: https://510ibf.shinyapps.io/Drought_trigger_dashboard_kenya/
+when: 1628242688.19769
+asMultiple: FALSE
+asStatic: FALSE
