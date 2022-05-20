@@ -1,0 +1,4 @@
+git+https://github.com/Riezebos/intensity_duration_frequency_analysis.git
+geopandas==0.10.2
+xarray==2022.3.0
+typer==0.4.1
