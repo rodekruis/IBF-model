@@ -20,9 +20,6 @@ conda install -f environment.yml
 conda activate idf
 ```
 
-There were some small issues with the IDF library. If this PR is merged the requirements.txt and environment.yml can be updated to load from pypi again:
-https://github.com/MarkusPic/intensity_duration_frequency_analysis/pull/5
-
 # Usage
 To run the script with default settings:
 ```bash
